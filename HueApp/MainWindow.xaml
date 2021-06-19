@@ -14,7 +14,7 @@
         <Button x:Name="btnConnect" Content="Connect" HorizontalAlignment="Center" Height="36" Margin="0,440,0,0" VerticalAlignment="Top" Width="199" FontSize="18" Click="Button_Click"/>
         <Button x:Name="findedieIp" Content="Find Bridge" HorizontalAlignment="Left" Height="37" Margin="423,91,0,0" VerticalAlignment="Top" Width="96" Click="findedieIp_Click"/>
         <TextBlock x:Name="txtResult" HorizontalAlignment="Left" Margin="132,481,0,-9" TextWrapping="Wrap" Width="308"/>
-        <Label Content="WARNING: Before Pressing Connect, press the link button on the bridge..." HorizontalAlignment="Center" Height="27" Margin="0,218,0,0" VerticalAlignment="Top" Width="395"/>
+        <Label Content="WARNING: Before Pressing Connect, press the link button on the bridge, or else the            &#xD;&#xA;application will freeze and crash." HorizontalAlignment="Center" Height="84" Margin="0,218,0,0" VerticalAlignment="Top" Width="555"/>
         <Image HorizontalAlignment="Left" Height="195" Margin="188,245,0,0" VerticalAlignment="Top" Width="208" Source="/hue_bridge_pair.png"/>
         <ProgressBar HorizontalAlignment="Center" Height="10" Margin="0,151,0,0" VerticalAlignment="Top" Width="100" Value="54"/>
     </Grid>
